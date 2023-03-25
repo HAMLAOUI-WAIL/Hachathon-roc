@@ -1,0 +1,13 @@
+.teams {
+  background-image: url(../../images/TechnologyIllustration.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+

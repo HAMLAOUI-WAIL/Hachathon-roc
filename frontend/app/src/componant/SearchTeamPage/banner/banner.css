@@ -1,0 +1,54 @@
+.searchTeam .banner_{
+  background-image: url(../../../images/BannerBackGround.png);
+  background-position: center;
+  background-size: cover;
+  height: 65px;
+  text-align: center;
+  padding: 12px;
+  font-size: 29px;
+  font-weight: 700;
+  color: white;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.searchTeam .searchField_ {
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 50px 75px 0px 75px;
+  align-items: center;
+}
+
+.searchTeam .searchField_ #searchButton {
+  width: 165px;
+  height: 38px;
+  background-color: #5956E9;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.searchTeam .searchField_ #searchButton:hover {
+  cursor: pointer;
+  background-color: #6a67ef;
+}
+
+.searchTeam .searchField_ input:nth-of-type(2){
+  flex-basis: 50%;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.searchTeam .searchField_ input:first-of-type{
+  width: 120px;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+}

@@ -1,0 +1,17 @@
+.containerEv{
+    padding: 0 100px;
+  }
+  .containerEv .Results {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .containerEv .Results img {
+    width: 31px;
+  }
+  
+  .containerEv .Results h1 {
+    font-size: 28px;
+  }

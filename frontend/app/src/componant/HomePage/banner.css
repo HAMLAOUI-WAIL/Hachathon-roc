@@ -1,0 +1,101 @@
+.bannerHome{
+  background-image: url(../../images/BannerBackGround.png) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 82px;
+  position: relative;
+  border-radius: 4px;
+}
+.bannerHome::after{
+  content: '';
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 10px 100px 10px #1B16FF;
+
+}
+.bannerHome::before{
+  content: '';
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0px 10px 100px 10px #DB14F1;
+}
+
+/* .bannerHome .textBox{
+  background-color: #2F2F2F;
+  align-items: center;
+  text-align: center;
+
+} */
+
+.bannerHome .textBox h1{
+  font-weight: 800;
+  font-size: 31px;
+  color: white;
+  /* margin:0 10px 10px 190px; */
+  /* color: #5956E9; */
+}
+.bannerHome .textBox p{
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  margin: 2rem 0;
+}
+
+.bannerHome .creatAcountButton{
+  width: 175px;
+  height: 50px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: #2F2F2F;
+  transition: .3s;
+}
+.bannerHome .creatAcountButton:hover{
+  cursor: pointer;
+  border: 1px solid #DB14F1;
+}
+
+.bannerHome .searchField{
+  background-image: url(../../images/SearchBack.png);
+  background-position: center;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin:  3rem 6rem;
+  align-items: center;
+  border-radius: 4px;
+  /* width: 20rem; */
+}
+.bannerHome .searchField .searchButton{
+  width: 165px;
+  height: 38px;
+  background-color: #5956E9;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  transition: .3s;
+}
+.bannerHome .searchField .searchButton:hover{
+  cursor: pointer;
+  background-color: #6a67ef;
+}
+
+.bannerHome .searchField input{
+  width: 500px;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

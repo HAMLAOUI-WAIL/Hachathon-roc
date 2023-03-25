@@ -1,0 +1,236 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: url(../../images/pic.png) center no-repeat ;
+    color: #FFFFFF; 
+    align-items: center;
+    padding-bottom: 2rem;
+    width:100%;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.container h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+.container h3{
+    padding-top: .1rem;
+    padding-bottom: 2rem;
+    font-size: 1.55rem;
+    color: rgb(253, 252, 252);
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+input.larger {
+    width: 10px;
+    height: 20px;
+    /* transform: scale(1.3); */
+    border: 2px;
+    background: #D6D6D6;
+}
+
+.container .contant{
+    width:95%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 19px;
+    padding: 6rem 7rem;
+    margin-top: 3rem;
+}
+
+
+.container .contant .form-box #txt{
+    background: #FAFAFA;
+    border: 1px solid rgba(24, 23, 23, 0.41);
+    border-radius: 6px;
+    padding: 2rem;
+    width: 40vw;
+    height: 15px;
+    
+}
+
+.container .contant .form-box #txtSC{
+    background: #FAFAFA;
+    border: 1px solid rgba(24, 23, 23, 0.41);
+    border-radius: 6px;
+    padding: 2rem;
+    width: 325px;
+    margin-right: 4rem;
+    height: 15px;
+    
+}
+
+.container .contant .form-box .graduation {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: -1.2rem;
+    flex-direction: column;
+}
+
+.container .contant .form-box .graduation select,
+.container .contant .form-box .birth select{
+    margin-left: 2rem;
+    padding: .8rem;
+    margin-top: .6rem;
+    height: 50px;
+    width: 110px;
+    background: #FAFAFA;
+    border: 1px solid rgba(24, 23, 23, 0.41);
+    border-radius: 10px;
+}
+
+span{
+    color: #FF0000;
+}
+
+.container .contant .form-box .label{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 2rem; */
+}
+
+.container .contant .form-box .label #option,
+.container .contant .form-box .occupation #option,
+.container .contant .form-box .level #option{
+    margin: 9px;
+    width: 29px;
+}
+
+.container .contant .form-box input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.37);
+
+}
+
+.container .contant .form-box h1{
+    width: 224px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    /* padding-left: 2rem; */
+
+}
+
+.container .contant .form-box h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #6C6F70;
+    padding: 0 1.6rem;
+}
+
+
+
+.container .contant .form-box .pad{
+    padding: 1rem;
+}
+
+.container .contant .form-box .info{
+    display: flex;
+    margin: 2rem;
+}
+
+.container .contant .form-box label{    
+    margin: 1rem;
+    padding: .2rem;
+    background: #FAFAFA;;
+    border: 1px solid #6B6B6B;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.58);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+     
+}
+
+
+.container .contant .form-btn{
+    background: #5956E9;
+    border-radius: 10px;
+    width: 164px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 44px;
+    padding: 1rem;
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+.container .contant .form-btn:hover{
+    background: #7472d8;
+}
+
+
+.container .contant .form-box .occupation label,
+.container .contant .form-box .level label{
+    width: fit-content;
+    padding: 1rem 14rem 1rem 1rem;
+}
+
+@media screen and (max-width: 1098px){
+    .container .contant .form-box .label{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 2rem; */
+    }
+}
+
+@media screen and (max-width: 753px){
+    .container .contant .form-box .label{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 2rem; */
+    }
+    .container{
+        /* padding-bottom: 2rem; */
+        width:100vw;
+        height: 100vh;
+
+    }
+    .info{
+        flex-direction: column;
+    }
+    .graduation{
+        padding-top: 2rem;
+    }
+    .container .contant .form-box .occupation ,
+    .container .contant .form-box .level{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

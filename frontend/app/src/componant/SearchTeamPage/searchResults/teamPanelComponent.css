@@ -1,0 +1,29 @@
+#teamPanelComponent1{
+  width: 0;
+  opacity: 0;
+}
+#teamPanelComponent2{
+  width: 0;
+  opacity: 0;
+}
+#teamPanelComponent3{
+  width: 0;
+  opacity: 0;
+}
+.teamPanelComponent{
+  height: 100%;
+  text-align: center;
+  transition: .3s;
+}
+.teamPanelComponent>img{
+  border-radius: 50%;
+  width: 20%;
+}
+.teamPanelComponent h4{
+  margin-top: 20px;
+}
+.teamPanelComponent .teamOrganism{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

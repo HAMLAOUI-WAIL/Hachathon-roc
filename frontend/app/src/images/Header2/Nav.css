@@ -1,0 +1,90 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.navLogo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.logo{
+  width: 40px;
+  height: 30px;
+}
+
+.navElements{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+}
+
+.navBar a{
+  width: 150px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  color: #2F2F2F;
+  transition: .3s;
+}
+.navBar a:hover{
+  color:#5956E9;
+}
+
+.signButtons{
+  display: flex;
+  gap: 20px;
+
+  font-size:50px !important;
+}
+
+.navBar button{
+  font-size:15px !important;
+  margin-right: 40px;
+  font-weight: 30px !important;
+  width: 90px;
+  height: 38px;
+  padding: 5px 10px;
+  align-items: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 15px;
+  transition: .3s;
+}
+.navBar button:hover{
+  cursor: pointer;
+  border: 1px solid #5956E9;
+}
+.navBar button:first-of-type{
+  background-color: white;
+  color: #2F2F2F;
+}
+.navBar button:last-of-type{
+  background-color: #5956E9;
+  color: white;
+}
+.navBar button:last-of-type:hover{
+  cursor: pointer;
+  background-color: #6a67ef;
+}
+
+.navBar .fa-bars{
+  font-size: 30px;
+  display: none;
+  background-color: #2F2F2F;
+
+}
+
+@media(max-width:1000px){
+  .navLogo p, .navBar .navElements{
+    display: none;
+  }
+  .navBar{
+    justify-content: space-between;
+  }
+
+}

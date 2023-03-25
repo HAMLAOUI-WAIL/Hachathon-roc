@@ -1,0 +1,149 @@
+.teamform_{
+     margin-top: 80px;
+     margin-left: 130px;
+}
+
+
+
+.teamform_ .dcinput .labeli{
+     color: black;
+   font-size: 20px;
+     font-weight: bold;
+     margin-bottom :1em;
+}
+
+  
+ em{
+     color: red;
+}
+
+.teamform_ .dcinput .cinput{
+       display: block;
+       padding: 1em;
+       width: 25em;
+       outline: none;
+       border: solid 2px rgb(215, 215, 215);
+       border-radius: 4px;
+       margin: 10px 6px;
+       align-items: center;
+       margin-bottom: 30px;
+       height: 45px;
+       transition: 0.2s ease;
+}
+
+
+
+.teamform_ .dcinput input:hover{
+     background-color: rgb(218, 218, 218);
+}
+
+.teamform_ .dcinput .hint{
+     opacity: 0.5;
+}
+
+
+.teamform_ .dcinput{
+     margin-bottom: 50px;
+}
+
+ .flname{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.flname input{
+     margin-bottom: 20px;
+     width: 12.1em;
+ 
+}
+
+
+.teamform_ button{
+     color:aliceblue;
+     font-weight: bold;
+     display: block;
+     width: 5em;
+     height: 20px;
+     font-size: 20px;
+     margin-left: 4px;
+     background-color: #5956E9;
+     height: 2.6em;
+     padding:10px;
+     margin-bottom: 20px;
+     cursor: pointer;
+     border: none;
+     border-radius: 4px;
+     transition: 0.3s ease;
+     
+}
+
+
+
+/* .teamform_ a{
+     text-decoration: none;
+} */
+
+.Priv_Pub{
+     color: black;
+     padding: .9rem;
+     font-family: 'Inter';
+     font-size: 20px;
+     line-height: 29px;  
+     gap: 2rem;
+}
+
+.Priv_Pub input{
+     width: fit-content;
+    padding: 4rem;
+    margin: 1rem;
+    border: 2px solid #6B6B6B;
+    border-radius: 50px;
+}
+
+.teamform_ .save{
+     width: 8em;
+}
+     .teamform_ button:hover{
+          background-color: #2421dc;
+          color: #fff;
+     
+     }
+
+
+     .teamform_ .cbtn{
+          
+          margin-right: 600px;
+          font-size: 15px;
+          font-weight: 10px;
+          height: 40px;
+          margin-top: 10px;
+     }
+
+.teamform_ .dcinput .cinputt{
+     display: block;
+     padding: 0.65em;
+     width: 25em;
+     outline: none;
+     border: solid 2px rgb(215, 215, 215);
+     border-radius: 4px;
+     margin: 10px 6px;
+     align-items: center;
+     margin-bottom: 30px;
+     transition: 0.2s ease;
+     margin-top: 20px;
+}
+
+
+.teamform_ .dcinput .cinputt:hover{
+     background-color: rgb(218, 218, 218);
+}
+
+
+.IMGTEam{
+     background: url(../../images/Wavy_Bus-35_Single-02.jpg) no-repeat;
+     background-size: contain;
+     margin-top: 18rem;
+     width: 60rem;
+     height: 50rem;
+}

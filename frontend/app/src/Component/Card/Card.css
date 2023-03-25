@@ -1,0 +1,24 @@
+.team-card{
+     margin-top: 15px;
+}
+
+.img-card{
+     filter: grayscale(20%);
+     display: block;
+     width:94%; 
+     height: 6em;
+     position:relative;
+     align-items: center;
+     margin-left:40px ;
+     margin-top:40px ;
+
+}
+
+
+.tag{
+     position: absolute;
+     margin-left: 120px !important;
+     top:150px;
+     color:rgb(205, 17, 17);
+     font-weight: bold;
+}

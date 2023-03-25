@@ -1,0 +1,22 @@
+.container__{
+    padding: 0 95px;
+  }
+  .container__ .hackathonsHeader__{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .container__ .Header__ img{
+    width: 31px;
+  }
+  .container__ .Header__ h1{
+    font-size: 28px;
+  }
+  
+  .container__ .teamsHeader__{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+  }

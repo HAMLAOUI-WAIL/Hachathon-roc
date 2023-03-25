@@ -1,0 +1,32 @@
+.team-hostcard{
+     margin-top: 15px;
+}
+
+.img-hostcard{
+     filter: grayscale(20%);
+     display: block;
+     width:94%; 
+     height: 14em;
+     position:relative;
+     align-items: center;
+     margin-left:40px ;
+     margin-top:40px ;
+
+}
+
+.tagg{
+     position: absolute;
+     margin-left: 550px;
+     top:160px;
+     color:white;
+     font-weight: bold;
+}
+
+.tagp{
+     position: absolute;
+     margin-left: 300px;
+     margin-right: 300px;
+     top:220px;
+     color:white;
+
+}

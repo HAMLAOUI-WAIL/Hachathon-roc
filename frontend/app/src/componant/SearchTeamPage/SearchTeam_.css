@@ -1,0 +1,17 @@
+.containerS1{
+    padding: 0 100px;
+  }
+  .containerS1 .Results {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .containerS1 .Results img {
+    width: 31px;
+  }
+  
+  .containerS1 .Results h1 {
+    font-size: 28px;
+  }

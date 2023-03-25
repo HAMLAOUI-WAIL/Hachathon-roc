@@ -1,0 +1,121 @@
+.teamform__{
+     margin-top: 80px;
+     margin-left: 130px;
+}
+
+
+
+.teamform__ .labeli{
+   font-size: 20px;
+     font-weight: bold;
+     margin-bottom :1em;
+}
+
+  
+.teamform__ em{
+     color: red;
+}
+
+.teamform__ .cinput{
+       display: block;
+       padding: 1em;
+       width: 25em;
+       outline: none;
+       border: solid 2px rgb(215, 215, 215);
+       border-radius: 4px;
+       margin: 10px 6px;
+       align-items: center;
+       margin-bottom: 30px;
+       height: 45px;
+       transition: 0.2s ease;
+}
+
+
+
+.teamform__ input:hover{
+     background-color: rgb(218, 218, 218);
+}
+
+.teamform__ .hint{
+     opacity: 0.5;
+}
+
+
+.teamform__ .dcinput{
+     margin-bottom: 50px;
+}
+
+.teamform__ .flname{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.teamform__ .flname input{
+     margin-bottom: 20px;
+     width: 12.1em;
+ 
+}
+
+
+/* button{
+     color:aliceblue;
+     font-weight: bold;
+     display: block;
+     width: 5em;
+     height: 20px;
+     font-size: 20px;
+     margin-left: 4px;
+     background-color: #5956E9;
+     height: 2.6em;
+     padding:10px;
+     margin-bottom: 20px;
+     cursor: pointer;
+     border: none;
+     border-radius: 4px;
+     transition: 0.3s ease;
+     
+} */
+
+
+
+.teamform__ a{
+     text-decoration: none;
+}
+.teamform__ .save{
+     width: 8em;
+}
+     /* button:hover{
+          background-color: #2421dc;
+          color: #fff;
+     
+     } */
+
+
+     .teamform__ .cbtn{
+          
+          margin-right: 600px;
+          font-size: 15px;
+          font-weight: 10px;
+          height: 40px;
+          margin-top: 10px;
+     }
+
+.teamform__ .cinputt{
+     display: block;
+     padding: 0.65em;
+     width: 25em;
+     outline: none;
+     border: solid 2px rgb(215, 215, 215);
+     border-radius: 4px;
+     margin: 10px 6px;
+     align-items: center;
+     margin-bottom: 30px;
+     transition: 0.2s ease;
+     margin-top: 20px;
+}
+
+
+.teamform__ .cinputt:hover{
+     background-color: rgb(218, 218, 218);
+}

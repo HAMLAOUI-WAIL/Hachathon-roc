@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.signin{
+
+       position: relative;
+       /* display: flex;
+       justify-content: space-between; */
+       text-align: center;
+       background: url(../../images/Photo.png);
+       background-size: cover;
+       
+}
+
+
+
+.signin form{
+       
+       margin-top: 40px;
+       margin-left: 100px;
+       padding: 2em;
+       width: 25em;
+       min-height: 37.2em;
+
+
+}
+.signin .logo{
+       width: 3em;
+       height: 3em;
+       margin-bottom :2em;
+}
+
+.signin h1{
+       font-size: 30px;
+       font-weight: bold;
+       margin-bottom :1em;
+       text-align:  center;
+}
+
+
+.signin input{
+       display: block;
+       padding: 1em;
+       width: 25em;
+       height: 60px;
+       outline: none;
+       border: solid 2px rgb(215, 215, 215);
+       border-radius: 9px;
+       margin: 10px 6px;
+       align-items: center;
+       margin-bottom: 30px;
+       transition: 0.3s ease-in-out;
+
+}
+
+.signin input:hover{
+       background-color: rgb(218, 218, 218);
+
+}
+
+
+
+       
+.signin .btnSign{
+       color:aliceblue;
+       font-weight: bold;
+       display: block;
+       width: 16.7em;
+       font-size: 20px;
+       margin-left: 4px;
+       margin-top: 50px;
+       background-color: #5956E9;
+       height: 2.9em;
+       padding:10px;
+       margin-bottom: 20px;
+       cursor: pointer;
+       border: none;
+       border-radius: 9px;
+       transition: 0.3s ease-in-out;
+}
+
+
+
+.signin .btnSign:hover{
+       background-color: #2421dc;
+ 
+
+}
+
+
+
+.signin .illustration{
+      
+       position:absolute;
+       margin-left: 12em;
+       top:150px;
+       /* margin-top: 9em; */
+       height: 350px;
+       width: 400px;
+
+}

@@ -1,0 +1,13 @@
+.Parent_Div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Team_Info{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.0442);
+    width: 50rem;
+    padding: 0rem 2rem;
+}
